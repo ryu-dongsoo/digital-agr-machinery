@@ -1,38 +1,43 @@
-# 📖 Introduction to Digital Agricultural Machinery — Lab Portfolio
+# 🚜 Digital Agricultural Machinery Lab Portfolio (English)
 
-> Dept. of Bio-Industrial Machinery Engineering, Jeonbuk National University | Instructor: Dongsoo Ryu  
-> 📌 **[한국어 버전](../ko/README.md)**
+> **Instructor:** Dongsoo Ryu (Jeonbuk National University)  
+> **[Korean Version Link](../ko/README.md)**
 
----
-
-## 📋 Weekly Lab Schedule
-
-| Week | Topic | Key Technologies | Folder |
-|------|-------|-----------------|--------|
-| **Week 4** | GNSS Precision Positioning & A-B Line Path Planning | Trilateration, RTK correction, Cross-track Error, path economics analysis | [`week4/`](week4/) |
-| **Week 5** | Optical Sensors & NDVI Mapping | Satellite imagery, multispectral simulation, NDVI computation, treatment zone extraction | [`week5/`](week5/) |
-| **Week 6** | 3D Spatial Perception — LiDAR Scanning | Tractor LiDAR animation, Point Cloud construction, automated 3D Phenotyping | [`week6/`](week6/) |
-| **Week 7** | Smart Farm Sensing & PID Control | On/Off → P → PI control progressive design, Arduino (Tinkercad) simulation | [`week7/`](week7/) |
+This directory contains the weekly lab materials for the **Introduction to Digital Agricultural Machinery** course. Each week's folder includes Python practical code and a detailed lab manual.
 
 ---
 
-## 🧪 Environment Setup
+## 🗓️ Weekly Lab List
 
-### Python Labs (Weeks 4-6)
-```bash
-pip install numpy matplotlib rasterio scipy
-```
-
-### Arduino Lab (Week 7)
-- Use [Tinkercad Circuits](https://www.tinkercad.com) online simulator
-- No physical hardware required
-
----
-
-## 📝 Further Study
-
-> **[📚 Discussion Topics & Quiz Bank →](QUIZ_BANK.md)**
+| Week | Topic | Key Content | Source Code |
+|:---:|---|---|:---:|
+| **02** | **Power Systems & TCO Analysis** | 10-year Total Cost of Ownership (TCO) simulation: Diesel vs Electric | [Link](week2/) |
+| **03** | **Communication (CAN & ISOBUS)** | J1939 CAN ID analysis and PGN/SPN data decoding practice | [Link](week3/) |
+| **04** | **GNSS & Path Planning** | RTK correction principles and A-B Line based path planning | [Link](week4/) |
+| **05** | **Optical Sensing & NDVI** | Vegetation Index (NDVI) calculation and mapping | [Link](week5/) |
+| **06** | **3D Perception (LiDAR)** | Point Cloud data processing and structural phenotyping | [Link](week6/) |
+| **07** | **Smart Farm Control Systems** | Environmental monitoring and PID-based irrigation control | [Link](week7/) |
 
 ---
 
-*© 2026 Introduction to Digital Agricultural Machinery Lab — Jeonbuk National University*
+## 🚀 Getting Started
+
+1. **Prerequisites**:
+   ```bash
+   pip install numpy matplotlib pandas opencv-python
+   ```
+
+2. **Running Labs**:
+   Read the `*.md` manual in each weekly folder and run the practical code following the guide.
+
+3. **Discussion & Quizzes**:
+   Review key concepts in the **[Discussion Topics & Quiz Bank](QUIZ_BANK.md)**.
+
+---
+
+## 📞 Contact & Support
+- **Professor**: Dongsoo Ryu (dsryu@jbnu.ac.kr)
+- **Lab**: Agricultural Smart Robot Lab (ASRL), JBNU
+
+---
+*© 2026 Jeonbuk National University. All rights reserved.*

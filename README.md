@@ -14,6 +14,8 @@
 
 | 주차 | 주제 | 폴더 |
 |------|------|------|
+| Week 02 | 트랙터 동력 시스템 및 경제성 분석 (TCO) | [`ko/week2/`](ko/week2/) |
+| Week 03 | 농기계 통신 네트워크 (CAN & ISOBUS) | [`ko/week3/`](ko/week3/) |
 | Week 04 | GNSS 정밀 측위 & A-B Line 경로 계획 | [`ko/week4/`](ko/week4/) |
 | Week 05 | 광학 센서 & NDVI 맵핑 | [`ko/week5/`](ko/week5/) |
 | Week 06 | 3D 공간 인식 — LiDAR 스캐닝 & 표현형 분석 | [`ko/week6/`](ko/week6/) |
@@ -31,6 +33,8 @@ This repository is the official portfolio for the **Introduction to Digital Agri
 
 | Week | Topic | Folder |
 |------|-------|--------|
+| Week 02 | Power Systems & TCO Analysis | [`en/week2/`](en/week2/) |
+| Week 03 | Communication Networks (CAN & ISOBUS) | [`en/week3/`](en/week3/) |
 | Week 04 | GNSS Precision Positioning & A-B Line Path Planning | [`en/week4/`](en/week4/) |
 | Week 05 | Optical Sensors & NDVI Mapping | [`en/week5/`](en/week5/) |
 | Week 06 | 3D Spatial Perception — LiDAR Scanning & Phenotyping | [`en/week6/`](en/week6/) |
@@ -48,6 +52,8 @@ DigitalAgrMachinery/
 ├── ko/                ← 한국어 실습 콘텐츠 (Korean Content)
 │   ├── README.md      ← 한국어 메인 포트폴리오
 │   ├── QUIZ_BANK.md   ← 심화 토론 & 퀴즈
+│   ├── week2/         ← [2주차] 트랙터 동력 및 TCO 분석
+│   ├── week3/         ← [3주차] CAN & ISOBUS 디코딩
 │   ├── week4/         ← [4주차] GNSS 정밀 측위 & A-B Line 경로 계획
 │   ├── week5/         ← [5주차] 광학 센서 & NDVI
 │   ├── week6/         ← [6주차] LiDAR 3D 스캐닝 & 표현형 분석
@@ -55,6 +61,8 @@ DigitalAgrMachinery/
 ├── en/                ← English Content
 │   ├── README.md      ← English Main Portfolio
 │   ├── QUIZ_BANK.md   ← Discussion & Quiz Bank
+│   ├── week2/         ← [Week 2] Power Systems & TCO Analysis
+│   ├── week3/         ← [Week 3] CAN & ISOBUS Decoding
 │   ├── week4/         ← [Week 4] GNSS Positioning & A-B Line Path Planning
 │   ├── week5/         ← [Week 5] Optical Sensors & NDVI
 │   ├── week6/         ← [Week 6] LiDAR 3D Scanning & Phenotyping
