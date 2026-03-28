@@ -1,0 +1,23 @@
+# Generated files
+*.tif
+*.npy
+*.png
+*.jpg
+*.jpeg
+step*_result.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Windows
+desktop.ini
+Thumbs.db
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
