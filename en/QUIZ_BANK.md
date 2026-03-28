@@ -1,9 +1,205 @@
-# Introduction to Digital Agricultural Machinery — Weeks 5-7 Discussion & Quiz Bank
+# Introduction to Digital Agricultural Machinery — Weeks 1–7 Discussion & Quiz Bank
 
 > **Course:** Introduction to Digital Agricultural Machinery (2026 Spring)  
 > **Institution:** Dept. of Bio-Industrial Machinery Engineering, Jeonbuk National University  
 > **Instructor:** Dongsoo Ryu  
 > 📌 **[한국어 버전](../ko/QUIZ_BANK.md)**
+
+---
+
+## Week 1: Paradigm Shift in Digital Agriculture & 2026 Trends
+
+### In-Depth Discussion Questions (3)
+
+**[Discussion 1-1] Light and Shadow of Digital Transformation**
+> The transition from Agriculture 4.0 (data/connectivity) to Agriculture 5.0 (AI/robot collaboration) is accelerating. In South Korea's aging rural environment, identify at least **three positive effects** and **three negative side-effects** (digital exclusion, cost burden, etc.) of this rapid digital transformation, and discuss policy measures to minimize the drawbacks.
+
+**[Discussion 1-2] Limits of Generative AI in Agriculture**
+> In the lecture, we practiced using generative AI tools (Gemini, ChatGPT, Claude) as research assistants. Discuss the risks of **hallucination (misinformation)** when such AI tools are used directly for agricultural **decision-making** (crop selection, pest control timing, etc.), and propose countermeasures with concrete examples.
+
+**[Discussion 1-3] Feasibility of Carbon-Neutral Agricultural Machinery**
+> The "5th Agricultural Mechanization Master Plan" emphasizes carbon-neutral farm machinery (electric/hydrogen tractors). When do you think mass adoption will realistically be possible? Present arguments from both **optimistic and pessimistic** perspectives, considering current battery technology, charging infrastructure, and the demanding workloads of agricultural operations.
+
+---
+
+### Quiz (5 Questions)
+
+**[Q1-1]** Which stage of agricultural evolution is based on 'data and connectivity'?
+- (A) Agriculture 1.0
+- (B) Agriculture 2.0
+- (C) Agriculture 3.0
+- **(D) Agriculture 4.0** ✅
+
+**[Q1-2]** What is the primary risk phenomenon that prevents us from blindly trusting information provided by generative AI?
+- (A) Overfitting
+- **(B) Hallucination** ✅
+- (C) Underfitting
+- (D) Bias
+
+**[Q1-3]** Which of the following is **NOT** a key technology keyword emphasized in the 5th Agricultural Mechanization Master Plan for 2026?
+- (A) Data Sovereignty
+- (B) Carbon-Neutral Farm Machinery
+- (C) Field-Ready AI
+- **(D) Gene-Edited Crops** ✅
+
+**[Q1-4]** Which of the following is **NOT** among the three major challenges of South Korean agriculture that drive the need for digital transformation?
+- (A) Aging rural population
+- (B) Climate change
+- **(C) Expansion of trade surplus** ✅
+- (D) Agricultural labor shortage
+
+**[Q1-5]** In the lecture, tools such as Antigravity, Cursor, and VS Code were introduced for what purpose?
+- (A) Drone flight simulators
+- (B) Remote control tools for agricultural machinery
+- **(C) AI-powered development tools (app development, data analysis, etc.)** ✅
+- (D) Agricultural ERP systems
+
+---
+
+## Week 2: Agricultural Power Systems (Internal Combustion vs. Electrification)
+
+### In-Depth Discussion Questions (3)
+
+**[Discussion 2-1] Economic Comparison: Electric vs. Diesel Tractor**
+> Estimate and compare the 10-year Total Cost of Ownership (TCO) — including purchase price, fuel/electricity costs, and maintenance — of a 100-hp electric tractor versus a diesel tractor. Discuss which power source is more economically viable for different Korean agricultural environments (paddy fields, dry fields, orchards), using specific figures.
+
+**[Discussion 2-2] The Dilemma of Emission Regulations (Tier 5)**
+> The SCR (urea system) and DPF (particulate filter) aftertreatment devices required to meet Tier 5 / Stage V emission regulations significantly increase the structural complexity and maintenance costs of agricultural machinery. Discuss where the appropriate balance lies between stricter environmental regulations and the economic realities of farming, incorporating government subsidy policies.
+
+**[Discussion 2-3] The Future of Hydrogen Fuel Cell Tractors**
+> Hydrogen fuel cell tractors are attracting attention as an alternative that covers the weaknesses of battery-electric tractors (charging time, range). However, realistic challenges such as hydrogen refueling infrastructure, hydrogen production costs, and rural accessibility remain significant. Present a forecast with supporting evidence on whether hydrogen tractors can be commercialized by 2030.
+
+---
+
+### Quiz (5 Questions)
+
+**[Q2-1]** What term describes a diesel engine's ability to increase torque in response to a sudden load increase?
+- (A) Thermal Efficiency
+- **(B) Torque Rise / Lugability** ✅
+- (C) Compression Ratio
+- (D) Air-Fuel Ratio
+
+**[Q2-2]** Which aftertreatment device reduces nitrogen oxides (NOx) by injecting urea solution, as required by Tier 5 / Stage V regulations?
+- (A) DPF (Diesel Particulate Filter)
+- (B) EGR (Exhaust Gas Recirculation)
+- **(C) SCR (Selective Catalytic Reduction)** ✅
+- (D) DOC (Diesel Oxidation Catalyst)
+
+**[Q2-3]** One of the greatest advantages of electric tractors is a characteristic available at 0 RPM as soon as the motor starts. What is it?
+- (A) High compression ratio
+- (B) Low noise
+- **(C) Instant maximum torque output** ✅
+- (D) Fuel efficiency
+
+**[Q2-4]** What is the mode of PTO (Power Take-Off) operation that functions independently of the transmission?
+- (A) Ground Speed PTO
+- **(B) Independent PTO** ✅
+- (C) Transmission PTO
+- (D) Live PTO
+
+**[Q2-5]** In e-CVT (Electric Continuously Variable Transmission), what is the core function that 'CVT' refers to?
+- (A) Engine restart after shutdown
+- **(B) Continuously varying the gear ratio without discrete gear steps** ✅
+- (C) Automatic 4WD switching
+- (D) Hydraulic cylinder speed control
+
+---
+
+## Week 3: Agricultural Machinery Communication Networks (CAN & ISOBUS)
+
+### In-Depth Discussion Questions (3)
+
+**[Discussion 3-1] CAN Bus Bandwidth Limitations and Next-Generation Communication**
+> The existing ISOBUS (CAN 2.0B, 250 kbps) lacks sufficient bandwidth for transmitting large-volume data such as camera footage or LiDAR point clouds. The next-generation High Speed ISOBUS (ISO 23870, up to 1 Gbps) attempts to solve this with Ethernet. Discuss the **backward compatibility strategy** with existing CAN infrastructure and the **technical and economic challenges** expected when adopting Ethernet in the agricultural machinery industry.
+
+**[Discussion 3-2] The Ideal vs. Reality of ISOBUS Plug & Play**
+> The ISOBUS standard aims for Plug & Play — "connect any brand of implement to any brand of tractor and it works automatically." In reality, however, issues such as varying AEF certification levels, proprietary function extensions, and firmware version mismatches persist. Propose the conditions necessary to achieve true interoperability from **technical, institutional, and industrial** perspectives.
+
+**[Discussion 3-3] TIM (Bidirectional Communication) and Autonomous Farming**
+> TIM (Tractor Implement Management) enables implements to directly control the tractor's speed, PTO, and hitch. Explain why this bidirectional communication technology could become a **core infrastructure for fully autonomous agricultural machinery systems**, and discuss what additional **safety mechanisms** are needed when TIM is applied to autonomous operations.
+
+---
+
+### Quiz (5 Questions)
+
+**[Q3-1]** When two CAN Bus nodes transmit messages simultaneously, what determines the priority?
+- (A) The node that started transmitting first
+- **(B) The message with the lower Identifier (ID) value wins** ✅
+- (C) The message with the longer data length (DLC)
+- (D) Random back-off and retransmission
+
+**[Q3-2]** What component must be installed at both ends of a CAN bus, and what is its correct resistance value?
+- (A) Fuse / 10Ω
+- (B) Capacitor / 100μF
+- **(C) Termination Resistor / 120Ω** ✅
+- (D) Inductor / 1mH
+
+**[Q3-3]** What is the most accurate description of the core function of the ISOBUS Virtual Terminal (VT)?
+- (A) A mechanical device that directly controls the implement's hydraulic valves
+- **(B) A universal display that renders and controls any brand of implement UI on a single tractor monitor** ✅
+- (C) An ECU that automatically adjusts the tractor engine's fuel injection rate
+- (D) A GNSS antenna module that receives satellite signals
+
+**[Q3-4]** In the J1939 protocol, what parameter does PGN 61444 (EEC1), SPN 190 represent?
+- (A) Coolant Temperature
+- (B) Vehicle Speed
+- **(C) Engine Speed (RPM)** ✅
+- (D) Fuel Level
+
+**[Q3-5]** What is the most revolutionary change in TIM (Tractor Implement Management) compared to conventional one-way communication?
+- (A) Communication speed increases to 1 Gbps
+- (B) The tractor screen changes to a touchscreen
+- **(C) The implement can send control commands for the tractor's speed and PTO (bidirectional)** ✅
+- (D) Remote control via satellite becomes possible
+
+---
+
+## Week 4: GNSS and Precision Positioning Systems (RTK & Auto-Steering)
+
+### In-Depth Discussion Questions (3)
+
+**[Discussion 4-1] Accessibility Gap in RTK Infrastructure**
+> RTK GNSS requires either a Base Station or an NTRIP (Network RTK) service. Farms near urban areas can easily access LTE/5G-based NTRIP services, while farms in mountainous or island regions face connectivity dead zones. Propose realistic solutions — both **technological and policy-based** — to bridge this **precision agriculture infrastructure accessibility gap**.
+
+**[Discussion 4-2] ROI of Auto-Steering System Investment**
+> The cost of installing an RTK-based auto-steering system ranges from approximately $6,000 to $15,000. For small-scale farms (1–3 ha), estimate how many years it would take to recoup this investment, considering fuel savings, input material savings, night operation capability, and labor cost reduction. Compare with large-scale farms (50+ ha) and discuss the **economic justification** for small farms.
+
+**[Discussion 4-3] Addressing Multipath Errors in the Field**
+> Among GNSS error sources, multipath is one of the most troublesome problems that cannot be corrected even by RTK. It is especially severe in orchards, near greenhouse structures, and in forested areas. Discuss possible approaches to minimize multipath errors from the perspectives of **antenna design, receiver algorithms, and operational environment arrangement**.
+
+---
+
+### Quiz (5 Questions)
+
+**[Q4-1]** What is the fundamental reason why GNSS requires signals from a minimum of 4 satellites?
+- (A) Four satellites are the farthest apart
+- (B) International agreement mandates a minimum of four
+- **(C) Four unknowns must be solved simultaneously: latitude, longitude, altitude, and receiver clock error** ✅
+- (D) Satellites operate in groups of four
+
+**[Q4-2]** Which atmospheric layer is identified as the largest source of GNSS error?
+- (A) Troposphere
+- **(B) Ionosphere** ✅
+- (C) Stratosphere
+- (D) Thermosphere
+
+**[Q4-3]** What is the key reason RTK (Real-Time Kinematic) achieves dramatically higher precision than conventional DGPS?
+- (A) It uses more satellites
+- (B) It has a larger antenna
+- **(C) It analyzes the carrier wave 'phase,' enabling much more precise distance measurement than code-based methods** ✅
+- (D) It receives data via the internet
+
+**[Q4-4]** What is the core role of the IMU (Inertial Measurement Unit) in a tractor auto-steering system?
+- (A) Amplifying satellite signals
+- (B) Monitoring engine RPM
+- **(C) Compensating for antenna position errors caused by tractor tilt (roll, pitch) — terrain compensation** ✅
+- (D) Measuring soil moisture
+
+**[Q4-5]** In auto-steering, what is the reference line called that is created by marking a start point (A) and an end point (B) during the tractor's first pass?
+- (A) Swath Line
+- (B) Grid Map
+- **(C) A-B Line** ✅
+- (D) Headland Boundary
 
 ---
 
@@ -154,4 +350,4 @@
 
 ---
 
-> **※ This document can be used for midterm preparation and course review.**
+> **※ This document can be used for midterm exam preparation and course review.**
