@@ -36,8 +36,8 @@
 ---
 
 ## 📞 연락처 및 지원
-- **교수**: 유동수 (dsryu@jbnu.ac.kr)
-- **연구실**: 전북대학교 스마트농업시스템 연구실 (ASRL)
+- **교수**: 유동수 (ryudongsoo@jbnu.ac.kr)
+- **연구실**: 전북대학교 농업생명과학대학 4호관 311호 (ASRL)
 
 ---
 *© 2026 Jeonbuk National University. All rights reserved.*

@@ -36,7 +36,7 @@ This directory contains the weekly lab materials for the **Introduction to Digit
 ---
 
 ## 📞 Contact & Support
-- **Professor**: Dongsoo Ryu (dsryu@jbnu.ac.kr)
+- **Professor**: Dongsoo Ryu (ryudongsoo@jbnu.ac.kr)
 - **Lab**: Agricultural Smart Robot Lab (ASRL), JBNU
 
 ---
