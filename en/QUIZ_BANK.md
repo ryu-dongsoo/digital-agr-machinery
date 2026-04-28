@@ -350,4 +350,53 @@
 
 ---
 
+## Week 9: Variable Rate Technology (VRT) & Precision Implements
+
+### In-Depth Discussion Questions (3)
+
+**[Discussion 9-1] Field Application: Map-based vs Sensor-based VRT**
+> Variable Rate Technology (VRT) is divided into Map-based (requiring pre-made prescription maps) and Sensor-based (real-time scanning and control) methods. Discuss which method is more economical and practical for small-scale, multi-cropping field farming environments in Korea, and propose a hybrid strategy to overcome the limitations of each method.
+
+**[Discussion 9-2] Economic Analysis of Section Control**
+> Installing an 8-section control valve on a 24m boom sprayer can save about 15% of pesticides by preventing overlapping at headlands or in irregularly shaped fields. Quantitatively estimate the Return on Investment (ROI) for a farm adopting this technology, and discuss the law of diminishing marginal utility when dividing sections even further (e.g., individual nozzle control).
+
+**[Discussion 9-3] Combining Drone Spraying with VRT**
+> VRT technology is recently being introduced to agricultural spraying drones (multicopters). However, due to the drone's fast flight speed, downwash, and payload limitations, it is difficult to achieve the same precision as tractor-based VRT. Propose technical improvement measures (concerning pumps, nozzles, and flight algorithms) to increase the precision of VRT in drone spraying.
+
+---
+
+### Quiz (5 Questions)
+
+**[Q9-1]** Which of the following best describes Map-based VRT?
+- (A) Adjusts valves instantly as sensors scan the crops
+- (B) Operates completely independently of the tractor's driving speed
+- **(C) Requires a pre-made prescription map (Rx Map) based on prior analysis of drone/satellite imagery** ✅
+- (D) Has no preprocessing step, making it best for responding to real-time sudden changes
+
+**[Q9-2]** What is the greatest advantage of PWM (Pulse Width Modulation) nozzle control over conventional pressure-based nozzles?
+- (A) It operates entirely without a pump
+- (B) The nozzle rotates to cover a wider area
+- **(C) It can independently adjust the flow rate while keeping the spray pressure (droplet size) constant** ✅
+- (D) It automatically mixes chemicals and water at the nozzle tip
+
+**[Q9-3]** What is the core advantage of an **Electric Drive** planter compared to a mechanical (wheel-driven) planter?
+- **(A) It enables VRT and precise seed spacing regardless of wheel slip** ✅
+- (B) It requires no battery, improving tractor fuel efficiency
+- (C) The motor's heat dries the seeds, increasing the germination rate
+- (D) It can adjust planting depth to more than 1 meter
+
+**[Q9-4]** In an ISOBUS system, which core module links the tractor's GPS position with the prescription map to send application commands to the implement ECU?
+- (A) TECU (Tractor Electronic Control Unit)
+- **(B) TC-GEO (Task Controller Geo-referenced)** ✅
+- (C) UT (Universal Terminal)
+- (D) TIM (Tractor Implement Management)
+
+**[Q9-5]** What is the process of simplifying NDVI raster data into 3 distinct zones in GIS software called?
+- (A) Vectorization
+- (B) Smoothing
+- **(C) Reclassify (Zoning)** ✅
+- (D) Interpolation
+
+---
+
 > **※ This document can be used for midterm exam preparation and course review.**
