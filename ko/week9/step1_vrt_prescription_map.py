@@ -77,7 +77,7 @@ output_dir = os.path.dirname(os.path.abspath(__file__))
 # GeoJSON은 Shapefile보다 단일 파일로 다루기 편함
 output_filename = os.path.join(output_dir, "vrt_rx_map.geojson")
 gdf.to_file(output_filename, driver="GeoJSON")
-print(f"✅ 처방 지도 생성 완료: {output_filename}")
+print(f"[Done] Prescription map created: {output_filename}")
 
 # 5. 시각화 (Matplotlib)
 fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))
@@ -95,5 +95,5 @@ ax2.axis('off')
 plt.tight_layout()
 output_img = os.path.join(output_dir, "vrt_rx_map.png")
 plt.savefig(output_img, dpi=300)
-print(f"✅ 시각화 이미지 저장 완료: {output_img}")
+print(f"[Done] Visualization image saved: {output_img}")
 # plt.show() # 서버 환경이나 비대화형 환경에서 멈춤 방지를 위해 주석 처리
