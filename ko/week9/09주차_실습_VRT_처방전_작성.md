@@ -22,7 +22,20 @@ pip install numpy geopandas shapely matplotlib
 
 ---
 
-## 💻 [Step 1] NDVI 데이터 구역화 (Zoning) 전략
+## 💻 [Step 1] [기초] 2D 배열 기반 처방량 계산 실습 (`step0_basic_vrt.py`)
+
+### 실습 목적
+- 복잡한 공간 데이터(GeoJSON, Polygon) 변환 전, 배열 연산을 통한 VRT 핵심 로직 파악
+- 직관적인 4x4 소형 밭 데이터를 직접 입력하여 NDVI와 처방량의 상관관계 이해
+
+### 동작 원리
+- 4x4 크기의 2D 배열(`numpy.array`) 하드코딩을 통한 가상 NDVI 데이터 생성
+- 배열 순회(loop) 및 조건문을 활용한 구역별 처방량(Rate) 할당
+- 전체 구역의 총 필요 비료량 합산 및 데이터 시각화(수치 표기) 적용
+
+---
+
+## 💻 [Step 2] NDVI 데이터 구역화 (Zoning) 전략
 
 ### 동작 원리
 - 0.0 ~ 1.0 범위 NDVI 래스터 데이터를 3단계 구역(Zone) 단순화
@@ -37,7 +50,7 @@ pip install numpy geopandas shapely matplotlib
 
 ---
 
-## 💻 [Step 2] 처방 지도 변환 파이썬 구현 (`step1_vrt_prescription_map.py`)
+## 💻 [Step 3] [심화] 처방 지도 벡터(GeoJSON) 변환 파이썬 구현 (`step1_vrt_prescription_map.py`)
 
 ### 동작 원리
 - 구역화된 2D 픽셀 데이터(Raster) 추출 후 `shapely` 모듈 활용 폴리곤(Polygon) 객체 변환

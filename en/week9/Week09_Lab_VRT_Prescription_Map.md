@@ -22,7 +22,20 @@ pip install numpy geopandas shapely matplotlib
 
 ---
 
-## 💻 [Step 1] NDVI Data Zoning Strategy
+## 💻 [Step 1] [Basic] 2D Array-based Prescription Calculation (`step0_basic_vrt.py`)
+
+### Lab Purpose
+- Understanding of core VRT logic through simple array calculations prior to complex spatial data (GeoJSON, Polygon) conversion
+- Comprehension of the correlation between NDVI and prescription rates by directly inputting intuitive 4x4 small field data
+
+### Operating Principle
+- Generation of virtual NDVI data through hardcoding a 4x4 2D array (`numpy.array`)
+- Allocation of zone-based application rates using array iteration (loops) and conditional statements
+- Calculation of total required fertilizer for the entire area and data visualization (with numerical labels)
+
+---
+
+## 💻 [Step 2] NDVI Data Zoning Strategy
 
 ### Operating Principle
 - Simplification of NDVI raster data (0.0 ~ 1.0 range) into 3 zones
@@ -37,7 +50,7 @@ pip install numpy geopandas shapely matplotlib
 
 ---
 
-## 💻 [Step 2] Python Implementation of Prescription Map Conversion (`step1_vrt_prescription_map.py`)
+## 💻 [Step 3] [Advanced] Python Implementation of Prescription Map Vector (GeoJSON) Conversion (`step1_vrt_prescription_map.py`)
 
 ### Operating Principle
 - Extraction of zoned 2D pixel data (Raster) and conversion to Polygon objects using the `shapely` module
