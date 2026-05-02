@@ -59,5 +59,5 @@ plt.tight_layout()
 output_dir = os.path.dirname(os.path.abspath(__file__))
 output_img = os.path.join(output_dir, "waypoint_path.png")
 plt.savefig(output_img, dpi=300)
-print(f"✅ 시각화 이미지 저장 완료: {output_img}")
+print(f"[SUCCESS] 시각화 이미지 저장 완료: {output_img}")
 # plt.show() # 서버/자동화 환경을 위해 주석 처리
