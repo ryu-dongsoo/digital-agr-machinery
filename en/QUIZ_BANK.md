@@ -397,6 +397,53 @@
 - **(C) Reclassify (Zoning)** ✅
 - (D) Interpolation
 
+## Week 10: Agricultural Drone Spraying Path Generation & Simulation
+
+### In-Depth Discussion Questions (3)
+
+**[Discussion 10-1] The Dilemma of Swath Width: Economics vs. Efficiency**
+> Compare and explain the effects of setting a narrow versus a wide swath width on the total drone flight distance and spraying efficiency (e.g., spray uniformity). Present the key variables that must be considered when determining the optimal swath width on an actual farm.
+
+**[Discussion 10-2] Obstacle Avoidance and Path Optimization**
+> Describe the logical process by which a waypoint generation algorithm reconfigures the path when a No-Fly Zone (obstacle) is designated in the Ground Control Station (GCS). What methods can be used to minimize the resulting increase in flight time during this process?
+
+**[Discussion 10-3] Designing Spray Trajectories in Crosswind Environments**
+> In an actual drone spraying field with strong crosswinds, how should the angle of the survey grid be set to minimize drift, and why? Explain in terms of chemical drift and flight safety.
+
+---
+
+### Quiz (5 Questions)
+
+**[Q10-1]** What is the most critical parameter when generating a zigzag (grid) waypoint path for drone spraying?
+- (A) Flight Altitude
+- (B) Home Point Coordinates
+- **(C) Swath Width** ✅
+- (D) Camera Field of View (FOV)
+
+**[Q10-2]** For a 100m x 80m field, how does the total flight distance roughly change if the swath width is reduced from 4m to 2m?
+- (A) Decreases by half
+- (B) Remains the same
+- **(C) Increases by two times** ✅
+- (D) Increases by four times
+
+**[Q10-3]** If the total flight distance is 2000m and the drone flies at a speed of 5m/s, what is the estimated minimum flight time?
+- (A) 100 seconds
+- (B) 200 seconds
+- (C) 300 seconds
+- **(D) 400 seconds** ✅
+
+**[Q10-4]** What is the term for the trajectory of the drone returning to its takeoff point after completing a flight mission?
+- **(A) RTL (Return To Launch)** ✅
+- (B) GCS (Ground Control Station)
+- (C) IMU (Inertial Measurement Unit)
+- (D) ROI (Region of Interest)
+
+**[Q10-5]** Which Python library is most suitable for storing and calculating waypoint arrays in the virtual flight path visualization lab?
+- (A) Pandas
+- **(B) NumPy** ✅
+- (C) TensorFlow
+- (D) OpenCV
+
 ---
 
 > **※ This document can be used for midterm exam preparation and course review.**

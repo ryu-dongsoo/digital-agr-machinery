@@ -64,6 +64,23 @@ pip install numpy matplotlib
 ### Output
 - `waypoint_path.png`: Output image visualizing the final generated spraying trajectory.
 
+---
+
+## 💻 [Step 4] [Applied] Drone Spraying Flight Animation (`step2_flight_animation.py`)
+
+### Purpose
+- Provide an intuitive understanding of the flight path by visually animating the drone moving along the generated waypoints.
+- Simulate the entire trajectory, including the Return To Launch (RTL) path.
+
+### Mechanism
+- Uses the `matplotlib.animation` module to update the drone's position coordinates over time and render them on the screen.
+- Generates an animation starting from the takeoff point, flying along each zigzag path, and returning to the home point.
+
+### Output
+- `flight_animation.gif`: A GIF file containing the flight simulation result.
+
+---
+
 ### Field Application Considerations
 - **Wind Direction**: In practice, paths are generated at an angle to minimize crosswinds based on wind direction.
 - **Obstacle Avoidance**: Designating no-fly zones for utility poles or trees and calculating bypass routes.
