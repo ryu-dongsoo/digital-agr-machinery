@@ -17,6 +17,8 @@ This directory contains the weekly lab materials for the **Introduction to Digit
 | **05** | **Optical Sensing & NDVI** | Vegetation Index (NDVI) calculation and mapping | [Link](week5/) |
 | **06** | **3D Perception (LiDAR)** | Point Cloud data processing and structural phenotyping | [Link](week6/) |
 | **07** | **Smart Farm Control Systems** | Environmental monitoring and PID-based irrigation control | [Link](week7/) |
+| **09** | **VRT Prescription Map** | Variable Rate Technology (VRT) prescription map generation and application simulation | [Link](week9/) |
+| **10** | **Drone Flight Control** | Automated spraying path (Waypoint) generation and flight simulation | [Link](week10/) |
 
 ---
 

@@ -20,6 +20,8 @@
 | Week 05 | 광학 센서 & NDVI 맵핑 | [`ko/week5/`](ko/week5/) |
 | Week 06 | 3D 공간 인식 — LiDAR 스캐닝 & 표현형 분석 | [`ko/week6/`](ko/week6/) |
 | Week 07 | 스마트팜 환경 센싱 및 PID 제어 | [`ko/week7/`](ko/week7/) |
+| Week 09 | VRT 처방 지도 작성 | [`ko/week9/`](ko/week9/) |
+| Week 10 | 농업용 드론(UAV) 방제 시뮬레이션 | [`ko/week10/`](ko/week10/) |
 
 > 📝 **[주차별 심화 토론 & 퀴즈 모음](ko/QUIZ_BANK.md)**
 
@@ -39,6 +41,8 @@ This repository is the official portfolio for the **Introduction to Digital Agri
 | Week 05 | Optical Sensors & NDVI Mapping | [`en/week5/`](en/week5/) |
 | Week 06 | 3D Spatial Perception — LiDAR Scanning & Phenotyping | [`en/week6/`](en/week6/) |
 | Week 07 | Smart Farm Sensing & PID Control | [`en/week7/`](en/week7/) |
+| Week 09 | VRT Prescription Map | [`en/week9/`](en/week9/) |
+| Week 10 | Drone Waypoint Generation & Simulation | [`en/week10/`](en/week10/) |
 
 > 📝 **[Discussion Topics & Quiz Bank](en/QUIZ_BANK.md)**
 
@@ -57,7 +61,9 @@ DigitalAgrMachinery/
 │   ├── week4/         ← [4주차] GNSS 정밀 측위 & A-B Line 경로 계획
 │   ├── week5/         ← [5주차] 광학 센서 & NDVI
 │   ├── week6/         ← [6주차] LiDAR 3D 스캐닝 & 표현형 분석
-│   └── week7/         ← [7주차] 스마트팜 PID 제어
+│   ├── week7/         ← [7주차] 스마트팜 PID 제어
+│   ├── week9/         ← [9주차] VRT 처방 지도 작성
+│   └── week10/        ← [10주차] 농업용 드론 방제 시뮬레이션
 ├── en/                ← English Content
 │   ├── README.md      ← English Main Portfolio
 │   ├── QUIZ_BANK.md   ← Discussion & Quiz Bank
@@ -66,7 +72,9 @@ DigitalAgrMachinery/
 │   ├── week4/         ← [Week 4] GNSS Positioning & A-B Line Path Planning
 │   ├── week5/         ← [Week 5] Optical Sensors & NDVI
 │   ├── week6/         ← [Week 6] LiDAR 3D Scanning & Phenotyping
-│   └── week7/         ← [Week 7] Smart Farm PID Control
+│   ├── week7/         ← [Week 7] Smart Farm PID Control
+│   ├── week9/         ← [Week 9] VRT Prescription Map
+│   └── week10/        ← [Week 10] Drone Waypoint Generation & Simulation
 └── .gitignore
 ```
 
