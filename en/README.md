@@ -19,6 +19,7 @@ This directory contains the weekly lab materials for the **Introduction to Digit
 | **07** | **Smart Farm Control Systems** | Environmental monitoring and PID-based irrigation control | [Link](week7/) |
 | **09** | **VRT Prescription Map** | Variable Rate Technology (VRT) prescription map generation and application simulation | [Link](week9/) |
 | **10** | **Drone Flight Control** | Automated spraying path (Waypoint) generation and flight simulation | [Link](week10/) |
+| **11** | **Autonomous Driving Path Tracking** | Pure Pursuit steering performance analysis based on Ld tuning | [Link](week11/) |
 
 ---
 

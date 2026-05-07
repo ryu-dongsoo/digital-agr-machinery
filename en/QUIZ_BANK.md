@@ -1,4 +1,4 @@
-# Introduction to Digital Agricultural Machinery — Weeks 1–7 Discussion & Quiz Bank
+# Introduction to Digital Agricultural Machinery — Weekly Discussion & Quiz Bank
 
 > **Course:** Introduction to Digital Agricultural Machinery (2026 Spring)  
 > **Institution:** Dept. of Bio-Industrial Machinery Engineering, Jeonbuk National University  
@@ -443,6 +443,55 @@
 - **(B) NumPy** ✅
 - (C) TensorFlow
 - (D) OpenCV
+
+---
+
+## Week 11: Autonomous Driving Architecture & Path Tracking Simulation
+
+### In-Depth Discussion Questions (3)
+
+**[Discussion 11-1] Pure Pursuit vs. Stanley Algorithm Comparison**
+> Pure Pursuit smooths out curves but tends to corner-cut, whereas Stanley excels in straight-line precision via front-axle control. Which control algorithm is more advantageous to pair with a precision seeder (where straightness is critical) versus a multi-purpose rotary tractor (requiring flexible turns)?
+
+**[Discussion 11-2] Dynamic Look-ahead Distance ($L_d$) Design**
+> At high speeds, if $L_d$ is too short, severe oscillation (snaking) occurs. Discuss the stability improvements of introducing a function that adjusts $L_d$ in real-time ($L_d = k \cdot v$) proportional to the vehicle's current speed ($v$).
+
+**[Discussion 11-3] Limits of Sensor Fusion and Mitigation**
+> RTK-GNSS is precise but suffers from signal dead zones, while LiDAR and Vision are vulnerable to weather (rain, fog). Discuss how to configure sensor fusion to achieve perfect perception across various agricultural environments (open fields, orchards, greenhouses).
+
+---
+
+### Quiz (5 Questions)
+
+**[Q11-1]** Which sensor is essential for acquiring ultra-precise absolute positioning coordinates ($x, y, z$) down to centimeter-level accuracy in agricultural environments?
+- (A) Ultrasonic Sensor
+- **(B) RTK-GNSS (Real-Time Kinematic GNSS)** ✅
+- (C) Infrared Thermal Camera
+- (D) IMU (Inertial Measurement Unit) alone
+
+**[Q11-2]** In the Pure Pursuit algorithm, what is the typical phenomenon observed during curves when the look-ahead distance ($L_d$) is set excessively long?
+- (A) CTE immediately converges to zero.
+- (B) Severe left/right steering oscillation occurs.
+- **(C) The vehicle loses the outer trajectory and cuts deeply into the inside of the curve (Corner Cutting).** ✅
+- (D) The tractor's speed automatically decreases.
+
+**[Q11-3]** In Coverage Path Planning (CPP), what is the greatest advantage of the zigzag (Boustrophedon) driving pattern?
+- (A) It is perfect for handling irregular polygonal boundaries.
+- **(B) It minimizes the number of turns when driving parallel to the longest edge, yielding high fuel efficiency.** ✅
+- (C) It spirals outward from the center, which is advantageous for circular fields.
+- (D) It requires 100% human steering intervention.
+
+**[Q11-4]** What is the term for the shortest perpendicular distance between the reference line the tractor must follow and its current position?
+- **(A) Cross-Track Error (CTE)** ✅
+- (B) Yaw Rate
+- (C) Slip Angle
+- (D) Longitudinal Error
+
+**[Q11-5]** In the 3-step autonomous driving architecture, which stage is responsible for global path planning and local obstacle avoidance calculations?
+- (A) Perception
+- **(B) Decision** ✅
+- (C) Control
+- (D) Communication
 
 ---
 

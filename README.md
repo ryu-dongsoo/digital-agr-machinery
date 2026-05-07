@@ -22,6 +22,7 @@
 | Week 07 | 스마트팜 환경 센싱 및 PID 제어 | [`ko/week7/`](ko/week7/) |
 | Week 09 | VRT 처방 지도 작성 | [`ko/week9/`](ko/week9/) |
 | Week 10 | 농업용 드론(UAV) 방제 시뮬레이션 | [`ko/week10/`](ko/week10/) |
+| Week 11 | 자율주행 아키텍처 및 경로 추종 시뮬레이션 | [`ko/week11/`](ko/week11/) |
 
 > 📝 **[주차별 심화 토론 & 퀴즈 모음](ko/QUIZ_BANK.md)**
 
@@ -43,6 +44,7 @@ This repository is the official portfolio for the **Introduction to Digital Agri
 | Week 07 | Smart Farm Sensing & PID Control | [`en/week7/`](en/week7/) |
 | Week 09 | VRT Prescription Map | [`en/week9/`](en/week9/) |
 | Week 10 | Drone Waypoint Generation & Simulation | [`en/week10/`](en/week10/) |
+| Week 11 | Autonomous Driving Architecture & Path Tracking Simulation | [`en/week11/`](en/week11/) |
 
 > 📝 **[Discussion Topics & Quiz Bank](en/QUIZ_BANK.md)**
 
@@ -63,7 +65,8 @@ DigitalAgrMachinery/
 │   ├── week6/         ← [6주차] LiDAR 3D 스캐닝 & 표현형 분석
 │   ├── week7/         ← [7주차] 스마트팜 PID 제어
 │   ├── week9/         ← [9주차] VRT 처방 지도 작성
-│   └── week10/        ← [10주차] 농업용 드론 방제 시뮬레이션
+│   ├── week10/        ← [10주차] 농업용 드론 방제 시뮬레이션
+│   └── week11/        ← [11주차] 자율주행 경로 추종 시뮬레이션
 ├── en/                ← English Content
 │   ├── README.md      ← English Main Portfolio
 │   ├── QUIZ_BANK.md   ← Discussion & Quiz Bank
@@ -74,7 +77,8 @@ DigitalAgrMachinery/
 │   ├── week6/         ← [Week 6] LiDAR 3D Scanning & Phenotyping
 │   ├── week7/         ← [Week 7] Smart Farm PID Control
 │   ├── week9/         ← [Week 9] VRT Prescription Map
-│   └── week10/        ← [Week 10] Drone Waypoint Generation & Simulation
+│   ├── week10/        ← [Week 10] Drone Waypoint Generation & Simulation
+│   └── week11/        ← [Week 11] Autonomous Driving Path Tracking Simulation
 └── .gitignore
 ```
 
