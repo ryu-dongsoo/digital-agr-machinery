@@ -8,6 +8,12 @@
 
 ---
 
+## 📺 Reference Video
+[![Daedong AI Tractor Promotional Video](https://img.youtube.com/vi/7asOE2ppjao/0.jpg)](https://youtu.be/7asOE2ppjao?si=BWjEBhNb5QgMzCIO)
+*Click the image to watch the Daedong AI autonomous tractor promotional video on YouTube.*
+
+---
+
 ## 🛠 [Step 0] Environment Setup & Theoretical Background
 
 ### 3-Step Autonomous Driving Core Process
