@@ -22,32 +22,19 @@
 
 ---
 
-## 💻 [Step 1] Pure Pursuit Simulator (`pure_pursuit_sim.py`)
+## 💻 [Step 1] Path Tracking Comparison Simulator (`path_tracking_compare.py`)
 
 ### Lab Purpose
-- Visualize the tractor's trajectory following a virtual S-curve.
-- Verify steering sensitivity and stability differences by tuning the look-ahead distance ($L_d$) parameter.
+- Intuitively compare the differences between the rear axle-centric **Pure Pursuit** and the front axle-centric **Stanley Method** in a single unified animation.
+- Observe how the trajectories (blue vs. green) diverge during sharp cornering.
 
-### Operation Principle
+### Operation Principle & 3x Speed Animation
 - Review tractor kinematic model update logic (based on Wheel Base `WB = 2.5m`).
-- Find the target point and update the steering angle (`delta`) at every simulation time step (`dt`).
-- **Real-time Animation Visualization**: Utilizing `plt.pause(0.01)`, the simulator renders a live animation of the blue tractor trajectory actively tracking the red reference points and the green X target mark in a 2D plot window.
+- **3x Speed Real-time Visualization**: Utilizing `plt.pause(0.001)` and frame-skipping logic, the animation speed is increased by 3x, running two tractors simultaneously on the same plot.
+- Observe in real-time the corner-cutting tendency of Pure Pursuit (blue trajectory) versus the tighter reference line tracking of the Stanley Method (green trajectory).
 
-### Field Application Considerations
-- Frequent irregular friction and wheel slip on agricultural terrain.
-- Recognize the need for dynamic $L_d$ design linked to velocity (`v`) to overcome algorithm limitations (e.g., corner cutting).
-
----
-
-## 💻 [Step 2] Stanley Simulator (`stanley_sim.py`)
-
-### Lab Purpose
-- Understand that unlike Pure Pursuit (rear axle), the Stanley method is a **Front Axle-centric** control algorithm.
-- Grasp the principle of proportional control combining Heading Error and Cross-Track Error (CTE).
-
-### Operation Principle & Animation Review
-- The trajectory of the tractor's front axle is marked with a green X. Observe the vehicle aligning precisely with the reference line through real-time animation.
-- Tune the steering gain parameter (`k=0.5` -> `k=2.0` or `k=0.1`) and intuitively observe through the animation how the steering becomes either too aggressive or unresponsive.
+### Parameter Tuning Points
+- Modify `Ld = 2.0` (Pure Pursuit Look-ahead distance) and `k = 0.5` (Stanley steering gain) directly in the code to test the sensitivity of each algorithm.
 
 ---
 
