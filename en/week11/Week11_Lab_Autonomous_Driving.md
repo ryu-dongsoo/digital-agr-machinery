@@ -31,11 +31,23 @@
 ### Operation Principle
 - Review tractor kinematic model update logic (based on Wheel Base `WB = 2.5m`).
 - Find the target point and update the steering angle (`delta`) at every simulation time step (`dt`).
-- Real-time animation in a 2D plot showing the blue tractor trajectory following the red reference points, tracking the green X target mark.
+- **Real-time Animation Visualization**: Utilizing `plt.pause(0.01)`, the simulator renders a live animation of the blue tractor trajectory actively tracking the red reference points and the green X target mark in a 2D plot window.
 
 ### Field Application Considerations
 - Frequent irregular friction and wheel slip on agricultural terrain.
 - Recognize the need for dynamic $L_d$ design linked to velocity (`v`) to overcome algorithm limitations (e.g., corner cutting).
+
+---
+
+## 💻 [Step 2] Stanley Simulator (`stanley_sim.py`)
+
+### Lab Purpose
+- Understand that unlike Pure Pursuit (rear axle), the Stanley method is a **Front Axle-centric** control algorithm.
+- Grasp the principle of proportional control combining Heading Error and Cross-Track Error (CTE).
+
+### Operation Principle & Animation Review
+- The trajectory of the tractor's front axle is marked with a green X. Observe the vehicle aligning precisely with the reference line through real-time animation.
+- Tune the steering gain parameter (`k=0.5` -> `k=2.0` or `k=0.1`) and intuitively observe through the animation how the steering becomes either too aggressive or unresponsive.
 
 ---
 
