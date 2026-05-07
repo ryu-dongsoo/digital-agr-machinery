@@ -13,7 +13,7 @@
 ### 1. Daedong AI Autonomous Tractor Demonstration
 [![Daedong AI Tractor Promotional Video](https://img.youtube.com/vi/7asOE2ppjao/0.jpg)](https://youtu.be/7asOE2ppjao?si=BWjEBhNb5QgMzCIO)
 
-### 2. [In-Depth Review] The Technology the World's #1 Couldn't Solve, Korea's Daedong AI Tractor Achieves
+### 2. [Comparison Video] Autonomous Technology Review: Daedong AI Tractor vs. John Deere
 [![Daedong AI Tractor Review Video](https://img.youtube.com/vi/aVtfWGy9tZg/0.jpg)](https://youtu.be/aVtfWGy9tZg?si=096CIhuJ66gX0_em)
 
 *Click the thumbnails to watch the videos on YouTube.*
