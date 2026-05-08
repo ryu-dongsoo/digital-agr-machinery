@@ -1,5 +1,7 @@
 # 🚜 디지털농업기계개론 실습 포트폴리오 (Korean)
 
+> **Author / Rights Holder:** 전북대학교 생물산업기계공학과 유동수 (ryudongsoo@jbnu.ac.kr)
+
 > **강의:** 유동수 (전북대학교 생물산업기계공학과)  
 > **[English Version Link](../en/README.md)**
 
@@ -44,3 +46,10 @@
 
 ---
 *© 2026 Jeonbuk National University. All rights reserved.*
+
+## 📝 변경 이력 (Changelog)
+- **2026-05-07 15:19:18** [[ryu-dongsoo](mailto:ryudongsoo@jbnu.ac.kr)] Update video title to explicitly mention Daedong vs John Deere comparison
+- **2026-05-07 15:18:35** [[ryu-dongsoo](mailto:ryudongsoo@jbnu.ac.kr)] Add second Daedong AI Tractor video to lab manuals
+- **2026-05-07 15:15:47** [[ryu-dongsoo](mailto:ryudongsoo@jbnu.ac.kr)] Add Daedong AI Tractor YouTube video link to lab manuals
+- **2026-05-07 15:11:58** [[ryu-dongsoo](mailto:ryudongsoo@jbnu.ac.kr)] Merge tracking algorithms into path_tracking_compare.py with 3x animation speed
+- **2026-05-07 15:03:14** [[ryu-dongsoo](mailto:ryudongsoo@jbnu.ac.kr)] Add Stanley method simulator and animation explanations

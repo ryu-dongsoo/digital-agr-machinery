@@ -1,5 +1,7 @@
 # 🚜 디지털농업기계개론 실습 | Introduction to Digital Agricultural Machinery
 
+> **Author / Rights Holder:** 전북대학교 생물산업기계공학과 유동수 (ryudongsoo@jbnu.ac.kr)
+
 > **이중 언어 저장소 (Bilingual Repository)**  
 > 본 저장소는 한국어와 영어 두 가지 언어로 제공됩니다.  
 > This repository is available in both Korean and English.
@@ -85,3 +87,10 @@ DigitalAgrMachinery/
 ---
 
 *© 2026 Introduction to Digital Agricultural Machinery Lab Course — Jeonbuk National University*
+
+## 📝 변경 이력 (Changelog)
+- **2026-05-07 15:19:18** [[ryu-dongsoo](mailto:ryudongsoo@jbnu.ac.kr)] Update video title to explicitly mention Daedong vs John Deere comparison
+- **2026-05-07 15:18:35** [[ryu-dongsoo](mailto:ryudongsoo@jbnu.ac.kr)] Add second Daedong AI Tractor video to lab manuals
+- **2026-05-07 15:15:47** [[ryu-dongsoo](mailto:ryudongsoo@jbnu.ac.kr)] Add Daedong AI Tractor YouTube video link to lab manuals
+- **2026-05-07 15:11:58** [[ryu-dongsoo](mailto:ryudongsoo@jbnu.ac.kr)] Merge tracking algorithms into path_tracking_compare.py with 3x animation speed
+- **2026-05-07 15:03:14** [[ryu-dongsoo](mailto:ryudongsoo@jbnu.ac.kr)] Add Stanley method simulator and animation explanations
