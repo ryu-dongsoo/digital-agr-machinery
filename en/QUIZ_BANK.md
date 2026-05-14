@@ -611,6 +611,70 @@
 
 ---
 
+## Week 14: Global Industry Trends & System Integration Design
+
+### In-depth Discussion Questions (3 Items)
+
+**[Discussion 14-1] Autonomous Agricultural Machinery and the "Right to Repair"**
+> Modern digital tractors are equipped with advanced software locks (DRM), making it impossible for farmers to perform repairs themselves. Analyze the conflict between the manufacturer's logic of safety and security and the farmer's logic of property/repair rights, and discuss potential compromises as an engineer.
+
+**[Discussion 14-2] Reliability in System Integration (SI)**
+> Discuss the importance of a 'Fail-Safe' architecture that prevents the entire system from going out of control or sudden acceleration even if one or two sensors malfunction due to dust or vibration. What are the primary safety redundancy elements to consider when designing agricultural robots?
+
+**[Discussion 14-3] Data Sovereignty and Coexistence with Giant Platform Corporations**
+> Who owns the agricultural big data collected by global agricultural machinery companies? Discuss ways to guarantee data sovereignty and profit distribution between farmers who generate the data and companies that process it into intelligent models.
+
+---
+
+### Quiz (5 Items)
+
+**[Q14-1]** What is the legal and social movement to guarantee the repair rights of farmers against software locks (DRM) designed to prevent farmers from repairing tractors directly?
+- (A) Data Sovereignty
+- **(B) Right to Repair** ✅
+- (C) Robot Tax
+- (D) Net Zero
+
+**[Q14-2]** Which middleware is used by roboticists worldwide and is a standard software framework for integrating sensor-decision-control modules in agricultural robots?
+- (A) Windows
+- (B) Android
+- **(C) ROS (Robot Operating System)** ✅
+- (D) TensorFlow
+
+**[Q14-3]** Like John Deere's 'See & Spray' technology, what is the ultimate goal of technology that precisely sprays pesticides only on weeds to minimize environmental pollution?
+- (A) Mass Production
+- **(B) Precision Resource Management and Sustainability** ✅
+- (C) Upsizing of Equipment
+- (D) Full Humanization
+
+**[Q14-4]** What is the design philosophy where a machine automatically stops safely or limits output to prevent larger accidents in case of system failure?
+- (A) Overclocking
+- **(B) Fail-Safe** ✅
+- (C) Fast-Forward
+- (D) Multi-Tasking
+
+**[Q14-5]** What is the biggest advantage of 'Swarm Robotics' covered in the Week 14 lecture?
+- (A) The price of one robot is very expensive.
+- (B) The work speed is always slower than that of large tractors.
+- **(C) Soil compaction prevention and ensuring work continuity in case of robot failure** ✅
+- (D) It never works without an internet connection.
+
+---
+
+### 📂 [Week 14 Lab Report Assignment]
+#### **Topic: Future Digital Agricultural System Integration Design and Technical Analysis Report**
+
+**1. In-depth Analysis of Global Commercialization Cases**
+- Select one of the commercialization cases from Week 14 (John Deere 8R, See & Spray, Monarch, etc.) and describe the core **Pain Point** of agriculture it aims to solve and its **technical differentiators**.
+
+**2. Concept Design of a Virtual Agricultural Robot System Integration**
+- Design a virtual robot system architecture to solve a specific agricultural problem (e.g., labor shortage in orchards for spraying due to aging).
+- **Contents**: Sensors used (Perception), decision algorithms (Decision), actuation methods (Actuation), and a 'Sense-Think-Act' loop diagram.
+
+**3. Technical Ethics and Engineer's Responsibility (Reflection)**
+- Choose one of the social/ethical issues (job changes, right to repair, data ownership, etc.) that could occur when the robot you designed is actually introduced, and state your opinion.
+
+---
+
 ### 📂 [Week 13 Lab Report Assignment]
 #### **Topic: Development and Evaluation of a No-Code Crop/Weed Identification Model using Google Teachable Machine**
 

@@ -24,6 +24,7 @@
 | **11** | **자율주행 경로 추종 시뮬레이션** | 전방 주시 거리(Ld) 튜닝에 따른 Pure Pursuit 조향 성능 분석 | [Link](week11/) |
 | **12** | **필드 로봇 및 엔드 이펙터** | 2-DOF 기구학 연산 및 소프트 그리퍼 형태 순응성 시뮬레이션 | [Link](week12/) |
 | **13** | **농업 인공지능(AI) 및 데이터 분석** | No-Code AI (Teachable Machine) 기반 작물/잡초 판독 모델 구축 | [Link](week13/) |
+| **14** | **시스템 통합 및 산업 분석** | 글로벌 상용화 기술 분석 및 차세대 디지털 농업 시스템 설계 | [Link](week14/) |
 
 ---
 
@@ -31,7 +32,7 @@
 
 1. **환경 설정**:
    ```bash
-   pip install numpy matplotlib pandas opencv-python
+   pip install numpy matplotlib pandas opencv-python ultralytics tensorflow
    ```
 
 2. **실습 진행**:
@@ -50,6 +51,7 @@
 *© 2026 Jeonbuk National University. All rights reserved.*
 
 ## 📝 변경 이력 (Changelog)
+- **2026-05-15 04:22:00** [[ryu-dongsoo](mailto:ryudongsoo@jbnu.ac.kr)] Add Week 14 System Integration and Industry Analysis materials
 - **2026-05-15 03:36:00** [[ryu-dongsoo](mailto:ryudongsoo@jbnu.ac.kr)] Add Week 13 Agricultural AI lab materials and Quiz/Report
 - **2026-05-15 03:15:00** [[ryu-dongsoo](mailto:ryudongsoo@jbnu.ac.kr)] Add Week 12 Field Robot and End-effector lab materials
 - **2026-05-07 15:19:18** [[ryu-dongsoo](mailto:ryudongsoo@jbnu.ac.kr)] Update video title to explicitly mention Daedong vs John Deere comparison
