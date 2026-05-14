@@ -22,6 +22,8 @@
 | **09** | **VRT 처방 지도 작성** | 처방 지도(Rx Map) 기반 가변 변량 제어(VRT) 적용 시뮬레이션 | [Link](week9/) |
 | **10** | **농업용 드론(UAV) 비행 제어** | 자동 비행 경로(Waypoint) 생성 및 방제 시뮬레이션 | [Link](week10/) |
 | **11** | **자율주행 경로 추종 시뮬레이션** | 전방 주시 거리(Ld) 튜닝에 따른 Pure Pursuit 조향 성능 분석 | [Link](week11/) |
+| **12** | **필드 로봇 및 엔드 이펙터** | 2-DOF 기구학 연산 및 소프트 그리퍼 형태 순응성 시뮬레이션 | [Link](week12/) |
+| **13** | **농업 인공지능(AI) 및 데이터 분석** | No-Code AI (Teachable Machine) 기반 작물/잡초 판독 모델 구축 | [Link](week13/) |
 
 ---
 
@@ -48,6 +50,8 @@
 *© 2026 Jeonbuk National University. All rights reserved.*
 
 ## 📝 변경 이력 (Changelog)
+- **2026-05-15 03:36:00** [[ryu-dongsoo](mailto:ryudongsoo@jbnu.ac.kr)] Add Week 13 Agricultural AI lab materials and Quiz/Report
+- **2026-05-15 03:15:00** [[ryu-dongsoo](mailto:ryudongsoo@jbnu.ac.kr)] Add Week 12 Field Robot and End-effector lab materials
 - **2026-05-07 15:19:18** [[ryu-dongsoo](mailto:ryudongsoo@jbnu.ac.kr)] Update video title to explicitly mention Daedong vs John Deere comparison
 - **2026-05-07 15:18:35** [[ryu-dongsoo](mailto:ryudongsoo@jbnu.ac.kr)] Add second Daedong AI Tractor video to lab manuals
 - **2026-05-07 15:15:47** [[ryu-dongsoo](mailto:ryudongsoo@jbnu.ac.kr)] Add Daedong AI Tractor YouTube video link to lab manuals

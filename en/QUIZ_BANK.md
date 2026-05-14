@@ -495,4 +495,135 @@
 
 ---
 
-> **※ This document can be used for midterm exam preparation and course review.**
+## Week 12: Field Robots and End-Effectors
+
+### In-depth Discussion Questions (3 Items)
+
+**[Discussion 12-1] Optimization of Degrees of Freedom (DOF) for Agricultural Robots**
+> When designing an apple harvesting robot, compare the suitability of a 5-DOF versus a 7-DOF (redundant) manipulator for complex orchard environments. Discuss this in terms of obstacle avoidance capability, control algorithm complexity, and manufacturing cost.
+
+**[Discussion 12-2] Durability and Practicality of Soft Robotics**
+> While soft grippers are revolutionary for harvesting delicate fruits (strawberries, peaches, etc.), they face durability issues due to silicone's vulnerability to harsh outdoor branches or UV exposure. Propose design alternatives (e.g., protective skins, replaceable tips) to overcome these material limitations for commercialization.
+
+**[Discussion 12-3] Robot Vision Placement Strategy: Eye-to-Hand vs. Eye-in-Hand**
+> Compare the pros and cons of mounting a camera outside the robot arm (Eye-to-Hand) versus on the wrist (Eye-in-Hand) in terms of 'occlusion (view blockage)' and 'precision approach.' Explain why a system that fuses both methods might be necessary for harvesting robots.
+
+---
+
+### Quiz (5 Items)
+
+**[Q12-1]** What is the minimum number of Degrees of Freedom (DOF) required to fully control the position ($X, Y, Z$) and orientation ($Roll, Pitch, Yaw$) of a robot's end-effector in 3D space?
+- (A) 3-DOF
+- (B) 4-DOF
+- **(C) 6-DOF** ✅
+- (D) 8-DOF
+
+**[Q12-2]** What is the name of the computational process used to calculate the required **joint angles** of a robot arm when target coordinates ($X, Y, Z$) are given?
+- (A) Forward Kinematics
+- **(B) Inverse Kinematics** ✅
+- (C) Path Planning
+- (D) Autonomous Control
+
+**[Q12-3]** Which term describes a specific posture of a robot arm where the joints align in a straight line, causing a momentary loss of control?
+- (A) Dead Zone
+- (B) Workspace
+- **(C) Singularity** ✅
+- (D) Base
+
+**[Q12-4]** What is the term for the property of soft robotics-based grippers that allows them to adapt to the shape of an object and wrap around it without the need for precise sensors or complex algorithms?
+- (A) Hardware Acceleration
+- **(B) Morphological Computation / Morphological Adaptation** ✅
+- (C) Mechanical Friction
+- (D) Inverse Kinematic Solution
+
+**[Q12-5]** In a pneumatic soft gripper (Pneu-Net), which layer is inserted to restrict expansion in a specific direction and induce a bending motion when air is injected?
+- (A) Elastic Layer
+- **(B) Strain Limiting Layer** ✅
+- (C) Heating Layer
+- (D) Lubricant Layer
+
+---
+
+### 📂 [Week 12 Lab Report Assignment]
+#### **Topic: Integrated Design of Crop-Specific Robot Manipulator and End-Effector**
+
+**1. Simulation Data Analysis**
+- Using `step0_kinematics_sim.py`, capture and explain the changes in the reachable **Workspace** when the robot arm's link lengths ($L_1, L_2$) are modified.
+- Derive the **Inverse Kinematic solutions (Joint Angles)** to harvest a fruit located at specific coordinates and analyze potential **Singularity** issues in that posture.
+
+**2. Detailed End-Effector Design**
+- **Target Crop**: (e.g., High-shelf strawberries for greenhouse)
+- **Design Core**: Gripping mechanism (soft/mechanical/suction, etc.), stem cutting mechanism, and crop damage prevention strategy.
+- **Drawings/Sketches**: Include a structural diagram of the end-effector and a layout of key components (motors, sensors, pneumatic tubes, etc.).
+
+**3. Technical Feasibility Study**
+- Identify two potential **Failure Modes** that could occur when your designed end-effector operates in actual agricultural fields (dust, vibration, humidity) and discuss mitigation strategies.
+- Describe the appropriate manufacturing method (3D printing, CNC machining, silicone molding, etc.) for this robotic hand and state the reasons why.
+
+---
+
+## Week 13: Agricultural AI and Data Analysis
+
+### In-depth Discussion Questions (3 Items)
+
+**[Discussion 13-1] "Garbage In, Garbage Out" in Agricultural Data**
+> Sensor data collected from outdoor agricultural fields often contains significant noise and missing values. Discuss the critical impact of such contaminated data on AI decision-making (e.g., incorrect pest diagnosis, excessive spraying) and strategies for data pre-processing (cleaning).
+
+**[Discussion 13-2] Traditional Machine Learning vs. Deep Learning (CNN)**
+> Compare the differences between traditional machine learning, where humans manually extract features, and deep learning, where the model discovers features on its own, using examples of agricultural image recognition. Discuss which approach would be more efficient in small-scale smart farm environments with limited computational resources.
+
+**[Discussion 13-3] Real-time Object Detection (YOLO) and Edge AI**
+> Explain why large-scale images collected by autonomous tractors or drones should be processed directly within the equipment (e.g., NVIDIA Jetson) rather than being sent to a cloud server, focusing on communication latency, network disconnections, and safety.
+
+---
+
+### Quiz (5 Items)
+
+**[Q13-1]** What is the term for data that is clearly structured in columns and rows, such as in Excel (CSV) or databases, including variables like temperature, humidity, and rainfall?
+- (A) Unstructured Data
+- **(B) Structured Data** ✅
+- (C) Multimedia Data
+- (D) Metadata
+
+**[Q13-2]** Which AI task outputs the bounding box coordinates to indicate 'where' an apple is located within an image for a harvesting robot?
+- (A) Image Classification
+- **(B) Object Detection** ✅
+- (C) Style Transfer
+- (D) Speech-to-Text
+
+**[Q13-3]** Which deep learning architecture is specialized for extracting features while maintaining spatial patterns (lines, shapes, textures) between image pixels and serves as the core of agricultural vision AI?
+- (A) RNN (Recurrent Neural Network)
+- (B) GAN (Generative Adversarial Network)
+- **(C) CNN (Convolutional Neural Network)** ✅
+- (D) Transformer
+
+**[Q13-4]** What is the technique used to artificially increase the size of a training dataset by flipping, rotating, or adjusting the brightness of original photos to improve model performance?
+- (A) Data Compression
+- **(B) Data Augmentation** ✅
+- (C) Data Encryption
+- (D) Data Pruning
+
+**[Q13-5]** During the Teachable Machine practice, what is the fundamental cause of the phenomenon where the recognition rate drops sharply in environments different from the trained background?
+- (A) Decreased internet speed
+- (B) Low resolution of the webcam
+- **(C) Data bias and lack of generalization performance** ✅
+- (D) Aging of computer hardware
+
+---
+
+### 📂 [Week 13 Lab Report Assignment]
+#### **Topic: Development and Evaluation of a No-Code Crop/Weed Identification Model using Google Teachable Machine**
+
+**1. Dataset Construction**
+- Describe the characteristics of the image data collected for the Normal Crop (Class 1), Weed Proxy (Class 2), and Background (Class 3), including variations in angle and lighting.
+
+**2. Model Training and Tuning**
+- Record the hyperparameter settings, such as Epochs and Batch Size, and describe any notable issues encountered during the training process (e.g., training interruption, overfitting).
+
+**3. Performance Testing and Limitation Analysis**
+- Quantitatively describe the changes in recognition rate when testing the model in a new environment (different background, different light source) that was not part of the training set.
+- Propose two technical or environmental factors that need to be improved for the current model to be applied to actual agricultural sites (e.g., See & Spray systems).
+
+---
+
+> **※ This document can be used for exam preparation and course review.**
