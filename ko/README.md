@@ -30,16 +30,57 @@
 
 ## 🚀 시작하기
 
-1. **환경 설정**:
-   ```bash
-   pip install numpy matplotlib pandas opencv-python ultralytics tensorflow
-   ```
+> 📌 **처음 실습을 시작하는 학생은 [실습 환경 설정 가이드](실습_환경_설정_가이드.md)를 먼저 참고**
 
-2. **실습 진행**:
-   각 주차별 폴더의 `*.md` 매뉴얼을 읽고 가이드에 따라 실습 코드를 실행합니다.
+### 1단계: 기본 환경 설치
 
-3. **퀴즈 및 토론**:
-   본 저장소의 **[심화 토론 & 퀴즈 뱅크](QUIZ_BANK.md)**를 통해 개념을 복습하십시오.
+- **Python 3.11+**, **VS Code**, **Git** 설치 필요
+- 상세 절차 → [실습 환경 설정 가이드](실습_환경_설정_가이드.md)
+
+### 2단계: 실습 자료 다운로드
+
+```bash
+git clone https://github.com/ryu-dongsoo/digital-agr-machinery.git
+```
+
+### 3단계: Python 패키지 설치
+
+#### 필수 패키지 (전 주차 공통)
+
+```bash
+pip install numpy matplotlib
+```
+
+#### 주차별 추가 패키지
+
+| 주차 | 추가 패키지 | 설치 명령 | 비고 |
+|:---:|-----------|----------|------|
+| **03** | *(추가 패키지 없음)* | — | 표준 라이브러리만 사용 |
+| **05** | `rasterio` | `pip install rasterio` | GeoTIFF 영상 처리 |
+| **09** | `geopandas`, `shapely` | `pip install geopandas shapely` | GeoJSON 처방 지도 생성 |
+| **13** | `opencv-python`, `tensorflow` | `pip install opencv-python tensorflow` | AI 모델 로드 및 추론 |
+| **13** | `ultralytics` | `pip install ultralytics` | YOLO 객체 탐지 (선택) |
+
+> ⚠️ **일괄 설치 명령** (전체 패키지를 한 번에 설치할 경우):
+> ```bash
+> pip install numpy matplotlib rasterio geopandas shapely opencv-python tensorflow ultralytics
+> ```
+
+### 4단계: 실습 진행
+
+1. 해당 주차 폴더의 **실습 매뉴얼(`*.md`)** 먼저 읽기
+2. `step0_xxx.py` → `step1_xxx.py` → ... 순서대로 실행
+3. 매뉴얼 지시에 따라 파라미터 변경 및 결과 관찰
+4. 결과 스크린샷 캡처 (`Win+Shift+S`) → 보고서에 첨부
+
+### 5단계: 보고서 제출
+
+- **GitHub Issue**를 통해 제출 → [제출 가이드](실습_환경_설정_가이드.md#8-실습-보고서-제출-github-issue)
+- 제목 형식: `[WeekXX] 학번_이름_실습보고서`
+
+### 6단계: 퀴즈 및 토론
+
+- **[심화 토론 & 퀴즈 뱅크](QUIZ_BANK.md)**를 통해 개념 복습
 
 ---
 

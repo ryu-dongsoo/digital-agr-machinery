@@ -25,8 +25,11 @@
 | Week 09 | VRT 처방 지도 작성 | [`ko/week9/`](ko/week9/) |
 | Week 10 | 농업용 드론(UAV) 방제 시뮬레이션 | [`ko/week10/`](ko/week10/) |
 | Week 11 | 자율주행 아키텍처 및 경로 추종 시뮬레이션 | [`ko/week11/`](ko/week11/) |
+| Week 12 | 필드 로봇 기구학 및 엔드 이펙터 설계 | [`ko/week12/`](ko/week12/) |
+| Week 13 | 농업 인공지능(AI) 및 No-Code 모델 구축 | [`ko/week13/`](ko/week13/) |
+| Week 14 | 시스템 통합 및 글로벌 산업 분석 | [`ko/week14/`](ko/week14/) |
 
-> 📝 **[주차별 심화 토론 & 퀴즈 모음](ko/QUIZ_BANK.md)**
+> 📌 **[실습 환경 설정 가이드](ko/실습_환경_설정_가이드.md)** | 📝 **[주차별 심화 토론 & 퀴즈 모음](ko/QUIZ_BANK.md)**
 
 ---
 
@@ -47,8 +50,11 @@ This repository is the official portfolio for the **Introduction to Digital Agri
 | Week 09 | VRT Prescription Map | [`en/week9/`](en/week9/) |
 | Week 10 | Drone Waypoint Generation & Simulation | [`en/week10/`](en/week10/) |
 | Week 11 | Autonomous Driving Architecture & Path Tracking Simulation | [`en/week11/`](en/week11/) |
+| Week 12 | Field Robots & End-Effector Design | [`en/week12/`](en/week12/) |
+| Week 13 | Agricultural AI & No-Code Model Building | [`en/week13/`](en/week13/) |
+| Week 14 | System Integration & Global Industry Analysis | [`en/week14/`](en/week14/) |
 
-> 📝 **[Discussion Topics & Quiz Bank](en/QUIZ_BANK.md)**
+> 📌 **[Lab Environment Setup Guide](en/Lab_Environment_Setup_Guide.md)** | 📝 **[Discussion Topics & Quiz Bank](en/QUIZ_BANK.md)**
 
 ---
 
@@ -68,7 +74,11 @@ DigitalAgrMachinery/
 │   ├── week7/         ← [7주차] 스마트팜 PID 제어
 │   ├── week9/         ← [9주차] VRT 처방 지도 작성
 │   ├── week10/        ← [10주차] 농업용 드론 방제 시뮬레이션
-│   └── week11/        ← [11주차] 자율주행 경로 추종 시뮬레이션
+│   ├── week11/        ← [11주차] 자율주행 경로 추종 시뮬레이션
+│   ├── week12/        ← [12주차] 필드 로봇 기구학 및 엔드 이펙터
+│   ├── week13/        ← [13주차] 농업 AI 및 No-Code 모델 구축
+│   ├── week14/        ← [14주차] 시스템 통합 및 산업 분석
+│   └── 실습_환경_설정_가이드.md ← 환경 설정 가이드
 ├── en/                ← English Content
 │   ├── README.md      ← English Main Portfolio
 │   ├── QUIZ_BANK.md   ← Discussion & Quiz Bank
@@ -80,7 +90,12 @@ DigitalAgrMachinery/
 │   ├── week7/         ← [Week 7] Smart Farm PID Control
 │   ├── week9/         ← [Week 9] VRT Prescription Map
 │   ├── week10/        ← [Week 10] Drone Waypoint Generation & Simulation
-│   └── week11/        ← [Week 11] Autonomous Driving Path Tracking Simulation
+│   ├── week11/        ← [Week 11] Autonomous Driving Path Tracking
+│   ├── week12/        ← [Week 12] Field Robots & End-Effector Design
+│   ├── week13/        ← [Week 13] Agricultural AI & No-Code Model
+│   ├── week14/        ← [Week 14] System Integration & Industry Analysis
+│   └── Lab_Environment_Setup_Guide.md ← Setup Guide
+├── .github/           ← GitHub Issue Templates
 └── .gitignore
 ```
 
