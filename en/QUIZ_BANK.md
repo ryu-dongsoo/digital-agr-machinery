@@ -497,7 +497,7 @@
 
 ## Week 12: Field Robots and End-Effectors
 
-### In-depth Discussion Questions (3 Items)
+### In-Depth Discussion Questions (3)
 
 **[Discussion 12-1] Optimization of Degrees of Freedom (DOF) for Agricultural Robots**
 > When designing an apple harvesting robot, compare the suitability of a 5-DOF versus a 7-DOF (redundant) manipulator for complex orchard environments. Discuss this in terms of obstacle avoidance capability, control algorithm complexity, and manufacturing cost.
@@ -510,7 +510,7 @@
 
 ---
 
-### Quiz (5 Items)
+### Quiz (5 Questions)
 
 **[Q12-1]** What is the minimum number of Degrees of Freedom (DOF) required to fully control the position ($X, Y, Z$) and orientation ($Roll, Pitch, Yaw$) of a robot's end-effector in 3D space?
 - (A) 3-DOF
@@ -541,30 +541,11 @@
 - **(B) Strain Limiting Layer** ✅
 - (C) Heating Layer
 - (D) Lubricant Layer
-
----
-
-### 📂 [Week 12 Lab Report Assignment]
-#### **Topic: Integrated Design of Crop-Specific Robot Manipulator and End-Effector**
-
-**1. Simulation Data Analysis**
-- Using `step0_kinematics_sim.py`, capture and explain the changes in the reachable **Workspace** when the robot arm's link lengths ($L_1, L_2$) are modified.
-- Derive the **Inverse Kinematic solutions (Joint Angles)** to harvest a fruit located at specific coordinates and analyze potential **Singularity** issues in that posture.
-
-**2. Detailed End-Effector Design**
-- **Target Crop**: (e.g., High-shelf strawberries for greenhouse)
-- **Design Core**: Gripping mechanism (soft/mechanical/suction, etc.), stem cutting mechanism, and crop damage prevention strategy.
-- **Drawings/Sketches**: Include a structural diagram of the end-effector and a layout of key components (motors, sensors, pneumatic tubes, etc.).
-
-**3. Technical Feasibility Study**
-- Identify two potential **Failure Modes** that could occur when your designed end-effector operates in actual agricultural fields (dust, vibration, humidity) and discuss mitigation strategies.
-- Describe the appropriate manufacturing method (3D printing, CNC machining, silicone molding, etc.) for this robotic hand and state the reasons why.
-
 ---
 
 ## Week 13: Agricultural AI and Data Analysis
 
-### In-depth Discussion Questions (3 Items)
+### In-Depth Discussion Questions (3)
 
 **[Discussion 13-1] "Garbage In, Garbage Out" in Agricultural Data**
 > Sensor data collected from outdoor agricultural fields often contains significant noise and missing values. Discuss the critical impact of such contaminated data on AI decision-making (e.g., incorrect pest diagnosis, excessive spraying) and strategies for data pre-processing (cleaning).
@@ -577,7 +558,7 @@
 
 ---
 
-### Quiz (5 Items)
+### Quiz (5 Questions)
 
 **[Q13-1]** What is the term for data that is clearly structured in columns and rows, such as in Excel (CSV) or databases, including variables like temperature, humidity, and rainfall?
 - (A) Unstructured Data
@@ -608,12 +589,11 @@
 - (B) Low resolution of the webcam
 - **(C) Data bias and lack of generalization performance** ✅
 - (D) Aging of computer hardware
-
 ---
 
 ## Week 14: Global Industry Trends & System Integration Design
 
-### In-depth Discussion Questions (3 Items)
+### In-Depth Discussion Questions (3)
 
 **[Discussion 14-1] Autonomous Agricultural Machinery and the "Right to Repair"**
 > Modern digital tractors are equipped with advanced software locks (DRM), making it impossible for farmers to perform repairs themselves. Analyze the conflict between the manufacturer's logic of safety and security and the farmer's logic of property/repair rights, and discuss potential compromises as an engineer.
@@ -626,7 +606,7 @@
 
 ---
 
-### Quiz (5 Items)
+### Quiz (5 Questions)
 
 **[Q14-1]** What is the legal and social movement to guarantee the repair rights of farmers against software locks (DRM) designed to prevent farmers from repairing tractors directly?
 - (A) Data Sovereignty
@@ -657,37 +637,6 @@
 - (B) The work speed is always slower than that of large tractors.
 - **(C) Soil compaction prevention and ensuring work continuity in case of robot failure** ✅
 - (D) It never works without an internet connection.
-
----
-
-### 📂 [Week 14 Lab Report Assignment]
-#### **Topic: Future Digital Agricultural System Integration Design and Technical Analysis Report**
-
-**1. In-depth Analysis of Global Commercialization Cases**
-- Select one of the commercialization cases from Week 14 (John Deere 8R, See & Spray, Monarch, etc.) and describe the core **Pain Point** of agriculture it aims to solve and its **technical differentiators**.
-
-**2. Concept Design of a Virtual Agricultural Robot System Integration**
-- Design a virtual robot system architecture to solve a specific agricultural problem (e.g., labor shortage in orchards for spraying due to aging).
-- **Contents**: Sensors used (Perception), decision algorithms (Decision), actuation methods (Actuation), and a 'Sense-Think-Act' loop diagram.
-
-**3. Technical Ethics and Engineer's Responsibility (Reflection)**
-- Choose one of the social/ethical issues (job changes, right to repair, data ownership, etc.) that could occur when the robot you designed is actually introduced, and state your opinion.
-
----
-
-### 📂 [Week 13 Lab Report Assignment]
-#### **Topic: Development and Evaluation of a No-Code Crop/Weed Identification Model using Google Teachable Machine**
-
-**1. Dataset Construction**
-- Describe the characteristics of the image data collected for the Normal Crop (Class 1), Weed Proxy (Class 2), and Background (Class 3), including variations in angle and lighting.
-
-**2. Model Training and Tuning**
-- Record the hyperparameter settings, such as Epochs and Batch Size, and describe any notable issues encountered during the training process (e.g., training interruption, overfitting).
-
-**3. Performance Testing and Limitation Analysis**
-- Quantitatively describe the changes in recognition rate when testing the model in a new environment (different background, different light source) that was not part of the training set.
-- Propose two technical or environmental factors that need to be improved for the current model to be applied to actual agricultural sites (e.g., See & Spray systems).
-
 ---
 
 > **※ This document can be used for exam preparation and course review.**
