@@ -21,3 +21,11 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+
+# Allow images in submissions directory
+!submissions/**/*.png
+!submissions/**/*.jpg
+!submissions/**/*.jpeg
+!submissions/**/*.md
+!submissions/**/*.pdf
