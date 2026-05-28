@@ -1,8 +1,7 @@
 import cv2
 from ultralytics import YOLO
 
-# 1. 모델 로드 (상태 출력 생략)
-model = YOLO('yolov8n.pt') 
+# 1. 모델 로드 (상태 출력 생략   
 
 # 2. 웹캠 연결
 cap = cv2.VideoCapture(0)
