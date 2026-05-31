@@ -1,8 +1,11 @@
+import os
 import cv2
 from ultralytics import YOLO
 
-# 1. 모델 로드 (상태 출력 생략   
-
+# 1. 모델 로드 (상태 출력 생략)
+current_dir = os.path.dirname(os.path.abspath(__file__))
+model_path = os.path.join(current_dir, "yolov8n.pt")
+model = YOLO(model_path)
 # 2. 웹캠 연결
 cap = cv2.VideoCapture(0)
 if not cap.isOpened():

@@ -1,3 +1,4 @@
+import os
 import cv2
 import numpy as np
 # tensorflow 및 keras 설치 필요 (pip install tensorflow)
@@ -5,9 +6,13 @@ from tensorflow.keras.models import load_model
 
 # 1. 모델 및 라벨 로드
 # Teachable Machine에서 'Tensorflow -> Keras'로 다운로드한 파일을 같은 폴더에 넣어야 합니다.
+current_dir = os.path.dirname(os.path.abspath(__file__))
+model_path = os.path.join(current_dir, "keras_model.h5")
+labels_path = os.path.join(current_dir, "labels.txt")
+
 try:
-    model = load_model("keras_model.h5", compile=False)
-    class_names = open("labels.txt", "r", encoding="utf-8").readlines()
+    model = load_model(model_path, compile=False)
+    class_names = open(labels_path, "r", encoding="utf-8").readlines()
 except:
     print("[오류] keras_model.h5 또는 labels.txt 파일을 찾을 수 없습니다.")
     print("티쳐블 머신에서 모델을 내보내기한 후 실습 폴더에 복사해주세요.")
