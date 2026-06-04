@@ -39,29 +39,29 @@
 - (C) Slip Angle
 - (D) Longitudinal Error
 
-**[Q6]** Minimum Degrees of Freedom (DOF) required to fully control position ($X, Y, Z$) and orientation ($Roll, Pitch, Yaw$) of end-effector in 3D space (Origin: Q12-1)
-- (A) 3-DOF
-- (B) 4-DOF
-- **(C) 6-DOF** ✅
-- (D) 8-DOF
-
-**[Q7]** Computational process used to calculate required joint angles of robot arm for given target coordinates ($X, Y, Z$) (Origin: Q12-2)
+**[Q6]** Computational process used to calculate required joint angles of robot arm for given target coordinates ($X, Y, Z$) (Origin: Q12-2)
 - (A) Forward Kinematics
 - **(B) Inverse Kinematics** ✅
 - (C) Path Planning
 - (D) Autonomous Control
 
-**[Q8]** Property of soft robotics-based grippers allowing self-adaptation and wrapping around object shapes without sensors (Origin: Q12-4)
+**[Q7]** Property of soft robotics-based grippers allowing self-adaptation and wrapping around object shapes without sensors (Origin: Q12-4)
 - (A) Hardware Acceleration
 - **(B) Morphological Computation / Morphological Adaptation** ✅
 - (C) Mechanical Friction
 - (D) Inverse Kinematic Solution
 
-**[Q9]** AI task outputting bounding box coordinates to indicate object location within an image for harvesting (Origin: Q13-2)
+**[Q8]** AI task outputting bounding box coordinates to indicate object location within an image for harvesting (Origin: Q13-2)
 - (A) Image Classification
 - **(B) Object Detection** ✅
 - (C) Style Transfer
 - (D) Speech-to-Text
+
+**[Q9]** Deep learning architecture specialized for extracting features while maintaining spatial patterns between image pixels as core of agricultural vision AI (Origin: Q13-3)
+- (A) RNN (Recurrent Neural Network)
+- (B) GAN (Generative Adversarial Network)
+- **(C) CNN (Convolutional Neural Network)** ✅
+- (D) Transformer
 
 **[Q10]** Design philosophy where a machine automatically stops safely or limits output to prevent larger accidents in case of system failure (Origin: Q14-4)
 - (A) Overclocking
