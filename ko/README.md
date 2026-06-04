@@ -25,7 +25,6 @@
 | **12** | **필드 로봇 및 엔드 이펙터** | 2-DOF 기구학 연산 및 소프트 그리퍼 형태 순응성 시뮬레이션 | [Link](week12/) |
 | **13** | **농업 인공지능(AI) 및 데이터 분석** | No-Code AI (Teachable Machine) 기반 작물/잡초 판독 모델 구축 | [Link](week13/) |
 | **14** | **시스템 통합 및 산업 분석** | 글로벌 상용화 기술 분석 및 차세대 디지털 농업 시스템 설계 | [Link](week14/) |
-| **15** | **기말고사** | 디지털 농업 기계 기술 종합 평가 (퀴즈 10문항, 심화토론 5문항) | [Link](week15/15주차_기말고사_문제.md) |
 
 ---
 
@@ -93,7 +92,6 @@ pip install numpy matplotlib
 *© 2026 Jeonbuk National University. All rights reserved.*
 
 ## 📝 변경 이력 (Changelog)
-- **2026-06-04 18:37:00** [[ryu-dongsoo](mailto:ryudongsoo@jbnu.ac.kr)] Add Week 15 Final Exam materials based on Quiz Bank (Weeks 9-14)
 - **2026-05-15 04:22:00** [[ryu-dongsoo](mailto:ryudongsoo@jbnu.ac.kr)] Add Week 14 System Integration and Industry Analysis materials
 - **2026-05-15 03:36:00** [[ryu-dongsoo](mailto:ryudongsoo@jbnu.ac.kr)] Add Week 13 Agricultural AI lab materials and Quiz/Report
 - **2026-05-15 03:15:00** [[ryu-dongsoo](mailto:ryudongsoo@jbnu.ac.kr)] Add Week 12 Field Robot and End-effector lab materials
