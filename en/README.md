@@ -25,6 +25,7 @@ This directory contains the weekly lab materials for the **Introduction to Digit
 | **12** | **Field Robots & End-Effectors** | 2-DOF kinematics and soft gripper compliance simulation | [Link](week12/) |
 | **13** | **Agricultural AI & Data Analysis** | No-Code AI (Teachable Machine) based crop/weed classification model | [Link](week13/) |
 | **14** | **System Integration & Industry Analysis** | Global commercialization technology analysis and next-gen digital agriculture | [Link](week14/) |
+| **15** | **Final Exam** | Final evaluation of digital agricultural machinery technologies (10 quizzes, 5 discussions) | [Link](week15/Week15_Final_Exam_Questions.md) |
 
 ---
 
@@ -92,6 +93,7 @@ pip install numpy matplotlib
 *© 2026 Jeonbuk National University. All rights reserved.*
 
 ## 📝 변경 이력 (Changelog)
+- **2026-06-04 18:37:00** [[ryu-dongsoo](mailto:ryudongsoo@jbnu.ac.kr)] Add Week 15 Final Exam materials based on Quiz Bank (Weeks 9-14)
 - **2026-05-07 15:19:18** [[ryu-dongsoo](mailto:ryudongsoo@jbnu.ac.kr)] Update video title to explicitly mention Daedong vs John Deere comparison
 - **2026-05-07 15:18:35** [[ryu-dongsoo](mailto:ryudongsoo@jbnu.ac.kr)] Add second Daedong AI Tractor video to lab manuals
 - **2026-05-07 15:15:47** [[ryu-dongsoo](mailto:ryudongsoo@jbnu.ac.kr)] Add Daedong AI Tractor YouTube video link to lab manuals
