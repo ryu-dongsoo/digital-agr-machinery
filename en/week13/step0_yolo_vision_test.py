@@ -1,8 +1,11 @@
+import os
 import cv2
 from ultralytics import YOLO
 
 # 1. Load model (omitting state output)
-model = YOLO('yolov8n.pt') 
+current_dir = os.path.dirname(os.path.abspath(__file__))
+model_path = os.path.join(current_dir, "yolov8n.pt")
+model = YOLO(model_path) 
 
 # 2. Connect webcam
 cap = cv2.VideoCapture(0)
